@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('fondo.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la pantalla */
+    background-position: center center; /* Posiciona la imagen en el centro */
+    background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+}
+
+.main-title {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.game-row {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.game {
+
+    margin: 0 40px;
+    background-color: #98fb98; /* Verde pastel */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.game img {
+    width: 500px; /* Ajusta el ancho */
+    height: 500px; /* Ajusta la altura */
+    margin-top: 10px;
+    border: 5px solid #000; /* Borde para la imagen */
+    object-fit: cover; 
+}
+
+.game-info {
+    text-align: left;
+}
+
+.game-info h2 {
+    font-size: 24px;
+}
+
+.game-info p {
+    font-size: 18px;
+    max-width: 500px; 
+    margin: 0 auto; 
+    text-align: justify;
+    
+}
+
+.game-info a {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
